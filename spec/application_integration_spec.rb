@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+require 'spec_helper'
+
 describe "GET '/' - Greeting Form" do
   # Code from previous example
   it 'welcomes the user' do
@@ -26,3 +28,5 @@ describe "POST '/greet' - User Greeting" do
     expect(page).to have_text("Hi Avi, nice to meet you!")
   end
 end
+
+require 'spec_helper'
